@@ -1,4 +1,6 @@
-# dotfiles
+# 12eh's dotfiles
+
+This is nothing fancy, but it beats re-creating all of this manually
 
 New machine setup:
  - fork this repo, then clone your copy locally
@@ -6,3 +8,7 @@ New machine setup:
  - check the dependencies list in each setup script before running it
  - run osx-setup.sh (if you're on another OS, I recommend reading through that script and figuring it out for yourself - sorry...)
  - run handshake-setup.sh if you work at Handshake
+
+Making modifications to preference files:
+ - if you modified files on github or in your local dotfiles directory, run pull.sh
+ - if you made modifications to the files in various other locations, run push.sh
