@@ -4,3 +4,4 @@ done manually (add to script someday maybe):
  - sublime packages
  - XtraFinder (to hide hidden files on desktop)
  - Flux
+ - ghostscript (belongs in HS setup but install will be os-specific)
