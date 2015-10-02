@@ -2,6 +2,17 @@ done manually (add to script someday maybe):
  - ssh keygen
  - sublime
  - sublime packages
+ - sublime settings
  - XtraFinder (to hide hidden files on desktop)
  - Flux
  - ghostscript (belongs in HS setup but install will be os-specific)
+ - ShiftIt (for half-screen window sizing shortcuts)
+ - Slack (should go in HS setup)
+ - Heroku
+ - Teamspeak (HS)
+ - handshake-office setup
+   - bundle install
+   - rake db:create
+   - .env file
+   - generate token
+   - put token in handshake/.env
