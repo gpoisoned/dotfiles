@@ -8,6 +8,7 @@
 	d = difftool
 	m = mergetool
 	co = checkout
+	s = status
 [push]
 	default = simple
 [core]
