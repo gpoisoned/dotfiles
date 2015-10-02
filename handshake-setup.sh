@@ -24,4 +24,8 @@ bash script/dependencies.sh
 bash script/setup.sh
 
 cp .env.example .env
-vim .env
+if which subl; then
+  subl .env
+else
+  vim .env
+fi
