@@ -1,6 +1,3 @@
-[user]
-	name = Josh Warfield
-	email = josh@joinhandshake.com
 [diff]
 	tool = meld
 [merge]
@@ -9,11 +6,9 @@
 	prompt = false
 [alias]
 	d = difftool
+	m = mergetool
 	co = checkout
-	dt = difftool
 [push]
 	default = simple
 [core]
-	excludesfile = /home/josh/.gitignore_global
-[github]
-	user = 12eh
+	excludesfile = ~/.gitignore_global
