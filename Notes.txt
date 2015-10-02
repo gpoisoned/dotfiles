@@ -1,0 +1,7 @@
+done manually (add to script someday if possible):
+ - XCode command line tools
+ - laptop.sh
+ - oh my zsh
+ - ssh keygen
+ - sublime
+ - sublime packages
