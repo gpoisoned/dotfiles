@@ -4,11 +4,14 @@
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # Additional shell setup
-cp ./aliases.zsh ~/.oh-my-zsh/custom
+cp aliases.zsh ~/.oh-my-zsh/custom
+
+# Required for rbenv to work properly
+cp rbenv.zsh ~/.oh-my-zsh/custom
 
 # Vim
-cp ./.vimrc ~
+cp .vimrc ~
 
 # Git
-cp ./.gitconfig ~
-cp ./.gitignore_global ~
+cp .gitconfig ~
+cp .gitignore_global ~
