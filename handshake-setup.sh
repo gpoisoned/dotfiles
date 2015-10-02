@@ -23,7 +23,5 @@ cd handshake
 bash script/dependencies.sh
 bash script/setup.sh
 
-rake dev:reset
-
 cp .env.example .env
 vim .env
