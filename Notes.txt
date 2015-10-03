@@ -13,6 +13,7 @@ done manually (add to script someday maybe):
  - handshake-office setup
    - bundle install
    - rake db:create
+   - rake db:migrae
    - .env file
-   - generate token
+   - generate token (rails c -> ApiKey.create)
    - put token in handshake/.env

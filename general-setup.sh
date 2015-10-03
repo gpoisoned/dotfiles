@@ -17,3 +17,6 @@ vim +PluginInstall +qall
 # Git
 cp .gitconfig ~
 cp .gitignore_global ~
+
+# Rails
+sudo gem install Rails
