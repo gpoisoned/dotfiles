@@ -6,7 +6,6 @@ done manually (add to script someday maybe):
  - XtraFinder (to hide hidden files on desktop)
  - Flux
  - ghostscript (belongs in HS setup but install will be os-specific)
- - ShiftIt (for half-screen window sizing shortcuts)
  - Slack (should go in HS setup)
  - Heroku
  - Teamspeak (HS)
