@@ -17,3 +17,6 @@ done manually (add to script someday maybe):
    - .env file
    - generate token (rails c -> ApiKey.create)
    - put token in handshake/.env
+
+TODO:
+ - meld looks awful on retina

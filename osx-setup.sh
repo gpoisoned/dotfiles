@@ -25,3 +25,7 @@ brew install kdiff3
 
 # Install pick because it's cool (and stuff in aliases.zsh depends on it)
 brew install pick
+
+# Install slate for window resize shortcuts
+curl http://www.ninjamonkeysoftware.com/slate/versions/slate-latest.tar.gz | tar -xz -C /Applications
+cp .slate ~
