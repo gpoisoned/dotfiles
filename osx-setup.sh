@@ -27,5 +27,5 @@ brew install kdiff3
 brew install pick
 
 # Install slate for window resize shortcuts
-curl http://www.ninjamonkeysoftware.com/slate/versions/slate-latest.tar.gz | tar -xz -C /Applications
+brew cask install slate
 cp .slate ~
