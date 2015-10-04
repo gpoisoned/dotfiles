@@ -16,3 +16,6 @@
 [user]
 	name = Josh Warfield
 	email = josh@joinhandshake.com
+[mergetool]
+	keepBackup = false
+	prompt = false
