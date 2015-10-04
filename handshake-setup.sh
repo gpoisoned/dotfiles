@@ -17,6 +17,7 @@ git clone git@github.com:strydercorp/handshake-parser.git
 git clone git@github.com:strydercorp/handshake-audit-logs.git
 
 brew install Caskroom/cask/java # elasticsearch install failed and told me to run this
+brew install ghostscript # for handshake-office
 
 cd handshake
 

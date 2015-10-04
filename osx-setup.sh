@@ -20,7 +20,6 @@ killall Finder
 chflags nohidden ~/Library
 
 # Install diff/merge tools
-brew install homebrew/x11/meld
 brew install kdiff3
 
 # Install pick because it's cool (and stuff in aliases.zsh depends on it)

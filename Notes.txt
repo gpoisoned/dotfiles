@@ -5,7 +5,6 @@ done manually (add to script someday maybe):
  - sublime settings
  - XtraFinder (to hide hidden files on desktop)
  - Flux
- - ghostscript (belongs in HS setup but install will be os-specific)
  - Slack (should go in HS setup)
  - Heroku
  - Teamspeak (HS)
@@ -16,6 +15,3 @@ done manually (add to script someday maybe):
    - .env file
    - generate token (rails c -> ApiKey.create)
    - put token in handshake/.env
-
-TODO:
- - meld looks awful on retina
