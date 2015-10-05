@@ -24,6 +24,8 @@ cd handshake
 bash script/dependencies.sh
 bash script/setup.sh
 
+rbenv rehash # Just in case
+
 cp .env.example .env
 if which subl; then
   subl .env

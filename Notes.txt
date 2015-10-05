@@ -3,6 +3,7 @@ done manually (add to script someday maybe):
  - sublime
  - sublime packages
  - sublime settings
+ - sublime rubocop - set rubocop path, turn off rvm/rbenv
  - XtraFinder (to hide hidden files on desktop)
  - Flux
  - Slack (should go in HS setup)
