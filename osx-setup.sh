@@ -28,3 +28,7 @@ brew install pick
 # Install slate for window resize shortcuts
 brew cask install slate
 cp .slate ~
+
+# Make the damn home and end keys do what they're supposed to
+mkdir ~/Library/KeyBindings
+cp DefaultKeyBinding.dict ~/Library/KeyBindings
