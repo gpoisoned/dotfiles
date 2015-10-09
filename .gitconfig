@@ -14,6 +14,7 @@
   default = simple
 [core]
   excludesfile = ~/.gitignore_global
+	editor = /usr/local/bin/vim
 [user]
   name = Josh Warfield
   email = josh@joinhandshake.com
