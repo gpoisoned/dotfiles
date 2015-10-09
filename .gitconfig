@@ -5,10 +5,11 @@
 [difftool]
 	prompt = false
 [alias]
-	d = difftool
+	d = difftool -d
 	m = mergetool
 	co = checkout
 	s = status
+  l = log --pretty=format:"%Cgreen%<|(15,trunc)%an%x20%Cblue%ad%x20%Creset%s" --date=short
 [push]
 	default = simple
 [core]
