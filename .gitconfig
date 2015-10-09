@@ -1,22 +1,22 @@
 [diff]
-	tool = kdiff3
+  tool = kdiff3
 [merge]
-	tool = kdiff3
+  tool = kdiff3
 [difftool]
-	prompt = false
+  prompt = false
 [alias]
-	d = difftool -d
-	m = mergetool
-	co = checkout
-	s = status
+  d = difftool -d
+  m = mergetool
+  co = checkout
+  s = status
   l = log --pretty=format:"%Cgreen%<|(15,trunc)%an%x20%Cblue%ad%x20%Creset%s" --date=short
 [push]
-	default = simple
+  default = simple
 [core]
-	excludesfile = ~/.gitignore_global
+  excludesfile = ~/.gitignore_global
 [user]
-	name = Josh Warfield
-	email = josh@joinhandshake.com
+  name = Josh Warfield
+  email = josh@joinhandshake.com
 [mergetool]
-	keepBackup = false
-	prompt = false
+  keepBackup = false
+  prompt = false
