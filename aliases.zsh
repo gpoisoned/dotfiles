@@ -4,3 +4,5 @@ alias diffw="git difftool -d &"
 
 # This one depends on pick, which is not installed by general-setup.sh
 alias co="git branch -a | sed -e 's/remotes\/origin\///'| pick | xargs git checkout"
+
+alias ss="rake dev:kill_db_connections && foreman start"

@@ -12,7 +12,12 @@ done manually (add to script someday maybe):
  - handshake-office setup
    - bundle install
    - rake db:create
-   - rake db:migrae
+   - rake db:migrate
    - .env file
    - generate token (rails c -> ApiKey.create)
    - put token in handshake/.env
+ - handshake-audit-logs setup
+   - createuser --superuser handshake  //creates a postgres user so db create works
+   - rake db:create
+   - rake db:migrate
+   - rake db:seed
