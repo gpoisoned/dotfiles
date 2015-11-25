@@ -8,6 +8,7 @@ cp .vimrc ~
 cp .slate ~
 
 cp aliases.zsh ~/.oh-my-zsh/custom
+cp vars.zsh ~/.oh-my-zsh/custom
 cp rbenv.zsh ~/.oh-my-zsh/custom
 
 cp DefaultKeyBinding.dict ~/Library/KeyBindings
