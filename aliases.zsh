@@ -3,6 +3,6 @@ alias diffh="git difftool -d origin/stable...HEAD &"
 alias diffw="git difftool -d &"
 
 # This one depends on pick, which is not installed by general-setup.sh
-alias co="if [ ! -z `git status -s` ]; then echo 'commit or stash local changes first!'; else git remote update --prune && git branch -a | sed -e 's/remotes\/origin\///'| pick | xargs git checkout; fi"
+alias co="git remote update --prune && git branch --no-merged master | sed -e 's/remotes\/origin\///'| pick | xargs git checkout"
 
 alias ss="rake dev:kill_db_connections && foreman start"
