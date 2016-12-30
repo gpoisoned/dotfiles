@@ -9,12 +9,12 @@
   m = mergetool
   co = checkout
   s = status
-  l = log --pretty=format:"%Cgreen%<|(15,trunc)%an%x20%Cblue%ad%x20%Creset%s" --date=short
+  l = log --pretty=format:"%Cgreen%<|(15,trunc)%an%x20%Cblue%ad%x20%C(yellow)%h%x20%Creset%s" --date=short
 [push]
   default = simple
 [core]
   excludesfile = ~/.gitignore_global
-	editor = /usr/local/bin/vim
+	editor = vim
 [user]
   name = Josh Warfield
   email = josh@joinhandshake.com
