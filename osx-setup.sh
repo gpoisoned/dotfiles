@@ -14,6 +14,8 @@ sh -c "$(curl --remote-name https://raw.githubusercontent.com/thoughtbot/laptop/
 
 # Show hidden files in Finder
 defaults write com.apple.finder AppleShowAllFiles YES
+# Don't show files on desktop
+defaults write com.apple.finder CreateDesktop -bool false
 killall Finder
 
 # Show user's Library folder
