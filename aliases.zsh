@@ -10,3 +10,19 @@ alias update="git pull && bundle install && rake db:migrate && rake db:migrate R
 alias mm="git co master && git pull && git co - && git merge master"
 
 alias ss="rake dev:kill_db_connections && foreman start -f Procfile.dev"
+
+alias pushlooker="echo staging demo production | xargs -n1 -I {} rails looker:git:push_lookml LOOKER_ENV_OVERRIDE={} LOOKER_DB_ENV_OVERRIDE={} AUTO_LOOKML_GENERATION=true LOOKER_USE_SNOWFLAKE=true"
+
+function use_es5() {
+  export IS_USING_ES_5=true
+  brew services stop elasticsearch@2.4
+  brew services stop kibana@4.4
+  docker-compose -f docker-compose.buildkite.yml up -d elasticsearch5 kibana5
+}
+
+function use_es2() {
+  export IS_USING_ES_5=false
+  docker-compose -f docker-compose.buildkite.yml stop
+  brew services restart elasticsearch@2.4
+  brew services restart kibana@4.4
+}
